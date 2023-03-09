@@ -1,0 +1,61 @@
+{
+  "name": "payinvert-sdk-form",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@emotion/utils": "^1.1.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "axios": "^0.23.0",
+    "bcryptjs": "^2.4.3",
+    "eslint-config-react-app": "^6.0.0",
+    "jsencrypt": "^3.3.1",
+    "node-sass": "^8.0.0",
+    "prettier": "^2.4.1",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-loader-spinner": "^4.0.0",
+    "react-phone-number-input": "^3.2.15",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.13.7",
+    "react-toastify": "8.0.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "format": "lint-stage"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.1",
+    "eslint-plugin-react": "^7.26.1"
+  },
+  "resolutions": {
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2"
+  }
+}
